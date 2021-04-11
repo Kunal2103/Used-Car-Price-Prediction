@@ -30,7 +30,7 @@ from PIL import Image
 
 
 #load data
-df = pd.read_csv('E:/python/car_data.csv')
+df = pd.read_csv('car_data.csv')
 
 
 # In[3]:
