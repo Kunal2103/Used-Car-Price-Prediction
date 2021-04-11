@@ -413,7 +413,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 # In[49]:
 
 
-image = Image.open('C:/cardata/used_Cars.jpg')
+image = Image.open('used_Cars.jpg')
 
 st.sidebar.image(image, use_column_width='auto')
 
@@ -460,7 +460,7 @@ input_df = user_input_features()
 # In[52]:
 
 
-cars_new = pd.read_csv('C:/cardata/car_cleaned_data.csv')
+cars_new = pd.read_csv('car_cleaned_data.csv')
 df = pd.concat([input_df,cars_new],axis=0)
 
 
