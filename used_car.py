@@ -93,7 +93,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 # In[13]:
 
 
-image = Image.open('used_Cars.jpg')
+image = Image.open('used_cars.jpg')
 
 st.sidebar.image(image, use_column_width='auto')
 
